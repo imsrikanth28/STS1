@@ -1,0 +1,32 @@
+//GCD and Euler's Phi
+
+import java.util.*;
+public class GCD
+{
+    public static int Gcdc(int a, int b)
+    {
+        while(b!=0)
+        {
+            int temp=b;
+            b=a%b;
+            a=temp;
+        }
+        return a;
+    }
+    public static int Phi(int n)
+    {
+        int result=1;
+        for(int i=2;i<n;i++)
+        {
+            if(Gcdc(i,n)==1)
+                result++;
+        }
+        return result;
+    }
+    public static void main(String args[])
+    {
+        int n1=10;
+        System.out.println(Phi(n1));
+    }
+
+}
