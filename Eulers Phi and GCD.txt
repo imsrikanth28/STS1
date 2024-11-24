@@ -1,5 +1,6 @@
 //GCD and Euler's Phi
 
+
 import java.util.*;
 public class GCD
 {
