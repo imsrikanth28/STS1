@@ -1,4 +1,4 @@
-MAXIMUM PRODUCT IN SUBARRAY
+//MAXIMUM PRODUCT IN SUBARRAY
 
 import java.util.*;
 public class MaxProduct
